@@ -1,3 +1,13 @@
+(function() {
+    const mask = document.querySelector('.mask')
+    window.addEventListener('load', () => {
+        mask.classList.add('hide')
+        setTimeout(() => {
+            mask.remove()
+        }, 1000)
+    })
+})();
+
 // function validation(form) {
 //     function createError(text,input) {
 //         const parent = input.parentNode;
