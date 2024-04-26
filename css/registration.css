@@ -1,0 +1,60 @@
+html {
+    background: url(../img/regist.jpg) no-repeat;  
+    background-size: 100%;
+}
+
+.back {
+    margin: 20px;
+    background-color: inherit;
+    border: none;
+    border-radius: 20px;
+}
+
+.back:hover {
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px;
+}
+
+.form {
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+input {
+    color: black;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.375);
+}
+
+.input-box {
+    margin-top: 20px;
+}
+
+.field {
+    text-align: center;
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(108, 110, 149);
+    border: none;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(95, 95, 133);
+    border: none;
+}
+
+.btn:hover {
+    box-shadow: rgb(255, 255, 255) 0px 0px 40px;
+}
