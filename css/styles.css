@@ -366,14 +366,26 @@ body {
     border: 1px solid #404040;
     margin-right: 30px;
     width: 250px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section-5-name:hover {
+    box-shadow: rgb(221, 221, 221) 0px 0px 40px;
 }
 
 .section-5-email {
+    color: #FFFFFF;
+    text-align: center;
     border-radius: 50px;
     background-color: transparent;
     border: 1px solid #404040;
     margin-right: 30px;
     width: 250px;
+}
+
+.section-5-email:hover {
+    box-shadow: rgb(221, 221, 221) 0px 0px 40px;
 }
 
 .elementor__section-6 {
@@ -610,6 +622,11 @@ body {
     border-radius: 50px;
     width: 200px;
     height: 38px;
+    color: #FFFFFF;
+}
+
+.input-field:hover {
+    box-shadow: rgb(221, 221, 221) 0px 0px 40px;
 }
 
 .link-5 {
@@ -620,6 +637,10 @@ body {
     margin-top: -25px;
 }
 
+.link-5:hover {
+    box-shadow: rgb(221, 221, 221) 0px 0px 40px;
+}
+
 .sec-9-btn {
     width: 200px;
     margin-left: 200px;
@@ -628,6 +649,7 @@ body {
     border-radius: 50px;
     border-color: #ffffff;
     color: #fff;
+    /* border: none; */
 }
 
 .error .box-link-1 {

@@ -103,6 +103,16 @@ function validation(form) {
             result = false
         }
     }
+
+    if(input.dataset.maxLength) {
+        removeError(input)
+        if(input.value.length > input.dataset.maxlength) {
+            console.log("Ошибка")
+            createError(`Недопустимое количество символов:${input.dataset.maxLength}`, input)
+            result = false
+        }
+    }
+    
     form.querySelectorAll('input').forEach(element => {
         console.log(element)
     })
