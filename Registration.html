@@ -7,27 +7,26 @@
     <link rel="stylesheet" href="css/registration.css">
 </head>
 <body>
-    <button class="back">
-        <a href="index.html">&#60</a>
-    </button>
-    <form action="" class="form" id="add-form">
-        <h1>Registration</h1>
-        <div class="input-box">
-        <input data-required="true" type="text" placeholder="Name" class="field">
+    <body>
+        <div class="registr-btn">
+            <a href="./index.html"><button class="btn">&#9668</button></a>
         </div>
-        <div class="input-box">
-        <input data-required="true" data-min-Length=2 data-max-Length=6 type="text" placeholder="Surmame" class="field">
-        </div>
-        <div class="input-box">
-        <input data-required="true" type="email" placeholder="Email" class="field">
-        </div>
-        <div class="input-box">
-        <input type="password" placeholder="Password" class="field">
-        </div>
-        <a href="#">
-            <button type="submit" class="btn">SEND</button>
-        </a>
-    </form>
-    <link rel="stylesheet" href="../Fitness UI1/js/reg.js">
+        <form action="" class="form" id="add-form">
+            <h1 class="text">REGISTRATION</h1>
+            <div class="input-box">
+                <input data-required="true" type="text" class="input-field" placeholder="Name">
+            </div>
+            <div class="input-box">
+                <input data-required="true" data-min-length=2 data-max-length=6 type="text" class="input-field" placeholder="Surname">
+            </div>
+            <div class="input-box">
+                <input data-required="true" data-min-length=2 data-max-length=8 type="email" class="input-field" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="password" class="input-field" placeholder="Password">
+            </div>
+            <button class="send-btn" type="submit">SEND</button>
+       </form>
+    <script src="./js/reg.js"></script>
 </body>
 </html>

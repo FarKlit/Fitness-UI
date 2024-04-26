@@ -1,60 +1,70 @@
 html {
-    background: url(../img/regist.jpg) no-repeat;  
+    background: url(../img/14809326021111.jpg) no-repeat;
     background-size: 100%;
 }
 
-.back {
+.registr-btn {
     margin: 20px;
-    background-color: inherit;
-    border: none;
-    border-radius: 20px;
 }
 
-.back:hover {
-    box-shadow: rgb(255, 255, 255) 0px 0px 20px;
+.text {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.btn {
+    background-color: inherit;
+    border: none;
+    border-radius: 20%;
+    color: rgb(204, 204, 204);
+}
+
+.btn:hover {
+    box-shadow: rgb(221, 221, 221) 0px 0px 40px;
 }
 
 .form {
     margin-top: 100px;
+    margin-left: 600px;
     text-align: center;
-}
-
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-}
-
-input {
-    color: black;
-    font-size: 20px;
-}
-
-::placeholder {
-    color: rgba(0, 0, 0, 0.375);
 }
 
 .input-box {
-    margin-top: 20px;
+    margin: 30px;
 }
 
-.field {
-    text-align: center;
+.input-field {
+    background-color: #1f1f1f;
     border-radius: 20px;
+    text-align: center;
+    border: none;
+    color: aliceblue;
     height: 30px;
     width: 250px;
-    background-color: rgb(108, 110, 149);
-    border: none;
 }
 
-.btn {
-    margin-top: 20px;
-    width: 100px;
-    height: 40px;
+.input-field:hover {
+    box-shadow: rgb(221, 221, 221) 0px 0px 40px;
+}
+
+.send-btn {
+    background-color: inherit;
+    color: aliceblue;
+    border: none;
     border-radius: 20px;
-    background-color: rgb(95, 95, 133);
-    border: none;
 }
 
-.btn:hover {
-    box-shadow: rgb(255, 255, 255) 0px 0px 40px;
+.send-btn:hover {
+    box-shadow: rgb(221, 221, 221) 0px 0px 40px;
+}
+
+.error .input-field {
+    border-color:red;
+    box-shadow: rgb(131, 0, 0) 0px 0px 40px; 
+}
+
+.error-label {
+    display: block;
+    color:red;
+    margin-bottom: 25px;
 }
