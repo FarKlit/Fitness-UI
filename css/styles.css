@@ -150,7 +150,7 @@ body {
     padding-top: 200px;
 }
 
-.module-top {
+.module_top {
     display: flex;
     align-items: end;
 }
@@ -360,31 +360,17 @@ body {
 
 }
 
-.section-5-name {
-    border-radius: 50px;
-    background-color: transparent;
-    border: 1px solid #404040;
-    margin-right: 30px;
-    width: 250px;
-    text-align: center;
-    color: #FFFFFF;
+.section-5-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: #1f1f1f;
+    color: #fff;
+    border-color: #fff;
 }
-
-.section-5-name:hover {
-    box-shadow: rgb(221, 221, 221) 0px 0px 40px;
-}
-
-.section-5-email {
-    color: #FFFFFF;
-    text-align: center;
-    border-radius: 50px;
-    background-color: transparent;
-    border: 1px solid #404040;
-    margin-right: 30px;
-    width: 250px;
-}
-
-.section-5-email:hover {
+.section-5-btn:hover {
     box-shadow: rgb(221, 221, 221) 0px 0px 40px;
 }
 
@@ -966,30 +952,60 @@ body {
 
 /* ADAPTARTION */
 
-.adaptive {
-    width: 1920px;
-    height: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 300px;
-    gap: 10px;
-}
+@media screen and (max-width: 1300px) {
+    .module-head {
+        font-size: 160px;
+    }
 
-@media (max-width: 1300px) {
-    .adaprive {
-        width: 1200px;
+    .elementor__section-1 {
+        padding-left: 130px;
+    }
+
+    .elementor__section-2 {
+        padding-left: 160px;
+    }
+
+    .elementor__section-5 {
+        margin-left: -300px;
+    }
+
+    .elementor__section-7 {
+        margin-left: -300px;
+    }
+
+    .section-6-pic {
+        display: block;
+    }
+
+    .elementor__section-8 {
+        margin-left: -300PX;
+    }
+
+    .elementor__section-9 {
+        grid-template-columns: 1fr 300px;
     }
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
+    .module-head {
+        font-size: 130px;
+    }
 
+    .elementor__section-1 {
+        padding-left: 100px;
+        
+    }
+
+    .elementor__section-2 {
+        padding-left: 100px;
+    }
+
+    .section-6-pic {
+        display: block;
+    }
 }
 
-@media (max-width: 768px) {
 
-}
 
-@media (max-width: 400px) {
 
-}
 
